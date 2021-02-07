@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap&subset=cyrillic-ext");
+@font-face {
+    font-family: 'Balsamiq Sans';
+    src: url('../fonts/BalsamiqSans-Regular.woff2') format('woff2'), url('../fonts/BalsamiqSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+body {
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 25px;
+    background-color: rgba(187, 104, 159, 0.568);
+    max-width: 1100px;
+    margin: 0 auto;
+    color: rgba(238, 83, 12, 0.623);
+    text-shadow: 1px 1px 1px #000;
+}
+
+h2,
+h3 {
+    text-align: center;
+    font-family: 'Balsamiq Sans';
+    font-size: 30px;
+    margin: 0px 0px 20px 0px;
+    color: #fff;
+    filter: drop-shadow(4px -2px 1px #9c1c7c);
+}
+
+.nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    padding: 0px 0px 0px 20px;
+    color: #f80303;
+    text-shadow: 1px 2px 3px #fff;
+}
+
+.nav img {
+    margin: 20px 0px 20px 0px;
+    width: 200px;
+    display: block;
+    border-radius: 50px 0 50px 0;
+    border-top: 2px dashed #f80303;
+    border-bottom: 3px dashed #fa0303;
+    filter: drop-shadow(40px 10px 10px #4444dd);
+    float: left;
+}
+
+.header img {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0px 21px 84px rgb(65, 20, 227);
+}
+
+.hiden {
+    overflow: hidden;
+    width: 183px;
+    margin: 0 auto;
+}
+
+.sroll {
+    height: 500px;
+    overflow: auto;
+    width: 200px;
+}
+
+p {
+    margin: 0px 0px 50px 0px;
+}
+
+.alstroemeria {
+    max-width: 1030px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.5);
+    background-color: rgba(187, 104, 159, 0.315);
+    padding: 30px;
+    margin: 0px 10px 50px 10px;
+}
+
+.anemone p,
+.alstroemeria p {
+    padding: 2px 0px 2px 0px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px#000;
+}
+
+.umbrella {
+    max-width: 1030px;
+    text-align: center;
+    border: 2px dashed #fff;
+    border-radius: 25px 0 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(224, 10, 153, 0.315);
+    padding: 30px;
+    margin: 0px 10px 50px 10px;
+}
+
+.anemone {
+    max-width: 1030px;
+    text-align: center;
+    border: 2px dotted #fff;
+    border-radius: 0px 25px 0 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(74, 10, 224, 0.315);
+    padding: 30px;
+    margin: 0px 10px 50px 10px;
+}
+
+p span {
+    letter-spacing: 10px;
+    font-style: italic;
+    outline: auto;
+    color: rgb(36, 22, 236);
+}
+
+.main img {
+    display: inline-block;
+    width: 300px;
+    border-radius: 50%;
+    margin: 0px 0px 30px 0px;
+    opacity: 1;
+    transition: all 1s ease 0s;
+    box-shadow: 0px 0px 50px#f3db03;
+}
+
+.main img:hover {
+    opacity: 0;
+    visibility: visible;
+    transition: all 1s ease 0s;
+}
+
+.nav {
+    margin: 200px 0px 0px 0px;
+}
+
+.main {
+    margin: 100px 0px 0px 0px;
+}
+
+.item {
+    text-align: center;
+}
+
+.header {
+    margin: 50px 0px 0px 0px;
+}
+
+.wat li {
+    display: inline-block;
+    margin: 0px 0px 0px 50px;
+    font-weight: 700;
+}
+
+.wats li {
+    display: inline-block;
+    margin: 0px 0px 0px 50px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: -150px 0px 0px 0px;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Pangolin', cursive;
+    line-height: 130%;
+    text-shadow: 0px 20px 30px rgb(27, 8, 251), 1px 20px 30px rgb(162, 5, 251)
+}
