@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 li {
@@ -69,6 +70,20 @@ h3 {
     text-align: center;
 }
 
+.ambr {
+    width: 300px;
+    height: 300px;
+    padding: 0px 0px 50px 50px;
+    box-sizing: border-box;
+}
+
+.inline span {
+    padding: 50px;
+    color: #4444dd;
+    background-color: #fff;
+    line-height: 150px;
+}
+
 .nav {
     text-align: center;
 }
@@ -109,7 +124,7 @@ h3 {
 .sroll {
     height: 500px;
     overflow: auto;
-    width: 200px;
+    width: 308px;
 }
 
 p {
@@ -129,10 +144,12 @@ p {
 
 .anemone p,
 .alstroemeria p {
-    padding: 2px 0px 2px 0px;
+    padding: 2px 55px 2px 44px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 0px 30px#000;
+    margin-left: -50px;
+    margin-right: -50px;
 }
 
 .umbrella {
